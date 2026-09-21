@@ -1,0 +1,14 @@
+[2026-09-21 14:24:56] Security Log Parser initialized.
+[2026-09-21 14:24:56] Parsing log target: samples/auth.log
+[2026-09-21 14:24:56] Telemetry -> Total Failed Logins: 8
+[2026-09-21 14:24:56] Telemetry -> Invalid Username Probes: 3
+[2026-09-21 14:24:56] Analyzing suspicious IP addresses...
+----------------------------------------------------------------
+  ATTEMPTS | IP ADDRESS      | THREAT LEVEL
+----------------------------------------------------------------
+     4     | 203.0.113.45  | [CRITICAL - BRUTE FORCE DETECTED]
+[2026-09-21 14:24:56] ALERT: Automated block recommended for host 203.0.113.45 (4 attempts)
+     4     | 192.168.1.105  | [CRITICAL - BRUTE FORCE DETECTED]
+[2026-09-21 14:24:56] ALERT: Automated block recommended for host 192.168.1.105 (4 attempts)
+----------------------------------------------------------------
+[2026-09-21 14:24:56] Security log analysis routine completed successfully.
